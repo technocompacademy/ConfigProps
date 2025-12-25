@@ -2,8 +2,7 @@ spring:
   main:
     banner-mode: 'off'
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3300/customerdb
+    driver-class-name: com.mysql.cj.jdbc.Driver   
     username: root
     password: root
   jpa:
